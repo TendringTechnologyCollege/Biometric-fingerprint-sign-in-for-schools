@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Location">
+   <children>
+      <Button fx:id="Triangle" layoutX="232.0" layoutY="63.0" mnemonicParsing="false" onAction="#Triangle" prefHeight="76.0" prefWidth="136.0" text="Triangle" textAlignment="CENTER" wrapText="true" ></Button>
+      <Button fx:id="Returning" layoutX="232.0" layoutY="162.0" mnemonicParsing="false" onAction="#Returning" prefHeight="76.0" prefWidth="136.0" text="Returning" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="GoingHome" layoutX="232.0" layoutY="260.0" mnemonicParsing="false" onAction="#GoingHome" prefHeight="85.0" prefWidth="136.0" text="Going Home" textAlignment="CENTER" wrapText="true" />
+   </children>
+
+    <stylesheets>
+        <URL value="@Login.css" />
+    </stylesheets>
+</Pane>

@@ -9,16 +9,17 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    Stage window;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
+        window = primaryStage;
         Parent root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
-
-
-        primaryStage.getIcons().add(new Image(Controller.class.getResourceAsStream("img/Icon.png")));
-        primaryStage.setTitle("Welcome | Sign in");
-        primaryStage.setScene(new Scene(root, 600, 575));
-        primaryStage.setFullScreen(true);
-        primaryStage.show();
+        window.getIcons().add(new Image(Controller.class.getResourceAsStream("img/Icon.png")));
+        window.setTitle("Welcome | Sign in");
+        window.setScene(new Scene(root, 600, 575));
+        window.setFullScreen(true);
+        window.show();
 
     }
 
