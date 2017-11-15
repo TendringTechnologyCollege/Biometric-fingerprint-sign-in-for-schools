@@ -66,7 +66,7 @@ public class Controller {
                     FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SecondWindow.fxml"));
                     Parent root1 = fxmlLoader.load();
                     Stage stage = new Stage();
-                    stage.setTitle("Second Window");
+                    stage.setTitle("Location");
                     stage.setScene(new Scene(root1));
                     stage.setFullScreen(true);
                     stage.show();

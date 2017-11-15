@@ -5,16 +5,20 @@ import javafx.fxml.FXML;
 
 public class Location {
 
+    public static String Location = "";
 
     public void Triangle(ActionEvent actionEvent) {
-        System.out.println(actionEvent);
+        Location = "Triangle";
+        System.out.println(Location);
     }
 
     public void Returning(ActionEvent actionEvent) {
-        System.out.println(actionEvent);
+        Location = "Returning";
+        System.out.println(Location);
     }
 
     public void GoingHome(ActionEvent actionEvent) {
-        System.out.println(actionEvent);
+        Location = "GoingHome";
+        System.out.println(Location);
     }
 }
