@@ -17,8 +17,8 @@ import java.awt.*;
 
 public class Controller {
 
-    private String Username = "Hello";
-    private String Password = "World";
+    //private String Username = "Hello";
+    //private String Password = "World";
 
     @FXML private Text actiontarget;
     @FXML private TextField UserName;
@@ -53,13 +53,19 @@ public class Controller {
 
         String username = UserName.getCharacters().toString();
         String password = passwordField.getCharacters().toString();
-        System.out.println(username + ", " + password);
+        //System.out.println(username + ", " + password);
+        System.out.println("Before database");
+        memory.setUsername(username);
+        memory.setPassword(password);
+        Database.Databse();
+        System.out.println("Before IF");
 
-        if (username.equals(Username)) {
-
-            if (password.equals(Password)) {
-
-                actiontarget.setText(username + ", " + password + " - Correct");
+        System.out.println(memory.getUsername() + "    " + memory.getPassword());
+        if (username.equals(memory.getUsername())) {
+            System.out.println("correct username");
+            if (password.equals(memory.getPassword())) {
+                System.out.println("correct password");
+                actiontarget.setText("Correct");
                 System.out.println("Correct");
 
                 try{
@@ -75,11 +81,14 @@ public class Controller {
                 }
 
 
+            }else {
+                System.out.println("Password Incorrect");
+                actiontarget.setText("Password Incorrect");
             }
 
         } else {
-            System.out.println("Incorrect");
-            actiontarget.setText(username + ", " + password + " - Incorrect");
+            System.out.println("Username Incorrect");
+            actiontarget.setText("Username Incorrect");
 
 
 
