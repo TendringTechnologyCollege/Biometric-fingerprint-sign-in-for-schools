@@ -5,14 +5,11 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-
-import java.awt.*;
 
 
 public class Controller {
@@ -54,19 +51,25 @@ public class Controller {
         String username = UserName.getCharacters().toString();
         String password = passwordField.getCharacters().toString();
         //System.out.println(username + ", " + password);
-        System.out.println("Before database");
-        memory.setUsername(username);
-        memory.setPassword(password);
-        Database.Databse();
-        System.out.println("Before IF");
+        //System.out.println("Before database");
+        memory.setTFusername(username);
+        memory.setTFpassword(password);
+        DatabaseLogin.login();
+        //System.out.println("Before IF");
 
-        System.out.println(memory.getUsername() + "    " + memory.getPassword());
+        //System.out.println(memory.getUsername() + "    " + memory.getPassword());
+        //System.out.println(memory.getTFusername() + "    " + memory.getTFpassword());
+        //System.out.println(username + "    " + password);
+
+
         if (username.equals(memory.getUsername())) {
             System.out.println("correct username");
+
+
             if (password.equals(memory.getPassword())) {
                 System.out.println("correct password");
-                actiontarget.setText("Correct");
-                System.out.println("Correct");
+                actiontarget.setText("Correct password");
+
 
                 try{
                     FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SecondWindow.fxml"));

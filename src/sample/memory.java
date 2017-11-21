@@ -1,7 +1,13 @@
 package sample;
 
 public class memory {
-
+    public static String username;
+    public static String password;
+    public static String TFusername;
+    public static String TFpassword;
+    public static String locaion;
+    public static String Time;
+    public static String Date;
 
     public static String getUsername() {
         return username;
@@ -19,10 +25,43 @@ public class memory {
         memory.password = password;
     }
 
-    public static String username;
-    public static String password;
+    public static String getTFusername() {
+        return TFusername;
+    }
 
+    public static void setTFusername(String TFusername) {
+        memory.TFusername = TFusername;
+    }
 
+    public static String getTFpassword() {
+        return TFpassword;
+    }
 
+    public static void setTFpassword(String TFpassword) {
+        memory.TFpassword = TFpassword;
+    }
 
+    public static String getLocaion() {
+        return locaion;
+    }
+
+    public static void setLocaion(String locaion) {
+        memory.locaion = locaion;
+    }
+
+    public static String getTime() {
+        return Time;
+    }
+
+    public static void setTime(String time) {
+        Time = time;
+    }
+
+    public static String getDate() {
+        return Date;
+    }
+
+    public static void setDate(String date) {
+        Date = date;
+    }
 }
