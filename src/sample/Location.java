@@ -1,7 +1,9 @@
 package sample;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.stage.Stage;
 
 import java.security.Timestamp;
 import java.text.SimpleDateFormat;
@@ -15,6 +17,7 @@ public class Location {
         //System.out.println(1);
         Location = "Triangle";
         Check();
+
 
     }
 
@@ -35,18 +38,19 @@ public class Location {
         String dateStamp = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
         memory.setTime(timeStamp);
         memory.setDate(dateStamp);
+        //CheckLocation.login();
+        System.out.println(memory.getDBLocation());
+        System.out.println(memory.getLocaion());
         //System.out.println(2);
 
-        if(memory.getLocaion() == "InSchool"){
-            //System.out.println(3);
-            memory.setLocaion(Location);
-            UpdateDatabase.update();
+        memory.setLocaion(Location);
+        UpdateDatabase.update();
 
-        }else{
-            //System.out.println(4);
-            memory.setLocaion("InSchool");
-            UpdateDatabase.update();
-        }
+        Stage stage = new Stage();
+        stage.close();
+
+
+
     }
 
 

@@ -70,19 +70,50 @@ public class Controller {
                 System.out.println("correct password");
                 actiontarget.setText("Correct password");
 
+                CheckLocation.login();
 
-                try{
-                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SecondWindow.fxml"));
-                    Parent root1 = fxmlLoader.load();
-                    Stage stage = new Stage();
-                    stage.setTitle("Location");
-                    stage.setScene(new Scene(root1));
-                    stage.setFullScreen(true);
-                    stage.show();
-                } catch (Exception e){
-                    System.out.println("Error loading window");
+                if(memory.getDBLocation().equals("InSchool")) {
+
+                    try {
+                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SecondWindow.fxml"));
+                        Parent root1 = fxmlLoader.load();
+                        Stage stage = new Stage();
+                        stage.setTitle("Location");
+                        stage.setScene(new Scene(root1));
+                        stage.setMaximized(true);
+                        stage.show();
+
+
+
+                    } catch (Exception e) {
+                        System.out.println("Error loading window");
+                    }
+                }else{
+                    System.out.println("opened");
+                    try {
+                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SignedBackIn.fxml"));
+                        Parent root1 = fxmlLoader.load();
+                        Stage stage = new Stage();
+                        stage.setTitle("Signed Back In");
+                        stage.setScene(new Scene(root1));
+                        stage.setMaximized(true);
+                        stage.show();
+
+                        Thread.sleep(5000);
+
+                        stage.close();
+
+
+
+                    } catch (Exception e) {
+                        System.out.println("Error loading window");
+                    }
+
+                    System.out.println("closed");
+                    memory.setLocaion("InSchool");
+                    UpdateDatabase.update();
+
                 }
-
 
             }else {
                 System.out.println("Password Incorrect");

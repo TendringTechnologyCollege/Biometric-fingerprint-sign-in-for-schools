@@ -8,6 +8,7 @@ public class memory {
     public static String locaion;
     public static String Time;
     public static String Date;
+    public static String DBLocation;
 
     public static String getUsername() {
         return username;
@@ -63,5 +64,13 @@ public class memory {
 
     public static void setDate(String date) {
         Date = date;
+    }
+
+    public static String getDBLocation() {
+        return DBLocation;
+    }
+
+    public static void setDBLocation(String DBLocation) {
+        memory.DBLocation = DBLocation;
     }
 }
