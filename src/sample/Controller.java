@@ -91,17 +91,17 @@ public class Controller {
                 }else{
                     System.out.println("opened");
                     try {
-                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SignedBackIn.fxml"));
+                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Error Window.fxml"));
                         Parent root1 = fxmlLoader.load();
                         Stage stage = new Stage();
                         stage.setTitle("Signed Back In");
                         stage.setScene(new Scene(root1));
-                        stage.setMaximized(true);
+                        stage.setMaximized(false);
                         stage.show();
 
-                        Thread.sleep(5000);
+                        //Thread.sleep(5000);
 
-                        stage.close();
+                        //stage.close();
 
 
 
