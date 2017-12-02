@@ -46,7 +46,7 @@
     <Text fx:id="actiontarget" GridPane.columnIndex="2" GridPane.rowIndex="7" />
    <ImageView fitHeight="308.0" fitWidth="391.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
       <image>
-         <Image url="@img/TTC%20logo.jpg" />
+         <Image url="@img/TTClogo.jpg" />
       </image>
    </ImageView>
 

@@ -87,11 +87,12 @@ public class Controller {
 
                     } catch (Exception e) {
                         System.out.println("Error loading window");
+
                     }
                 }else{
                     System.out.println("opened");
                     try {
-                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Error Window.fxml"));
+                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SignedBackIn.fxml"));
                         Parent root1 = fxmlLoader.load();
                         Stage stage = new Stage();
                         stage.setTitle("Signed Back In");
@@ -107,6 +108,7 @@ public class Controller {
 
                     } catch (Exception e) {
                         System.out.println("Error loading window");
+
                     }
 
                     System.out.println("closed");
@@ -118,11 +120,19 @@ public class Controller {
             }else {
                 System.out.println("Password Incorrect");
                 actiontarget.setText("Password Incorrect");
+
+
+
             }
 
         } else {
             System.out.println("Username Incorrect");
             actiontarget.setText("Username Incorrect");
+            new ErrorWindowControler();
+
+
+
+
 
 
 
