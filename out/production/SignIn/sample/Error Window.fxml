@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<?import java.net.URL?>
-<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ErrorWindow">
    <children>
       <ImageView fitHeight="220.0" fitWidth="256.0" layoutX="211.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
          <image>
@@ -18,7 +17,7 @@
       </ImageView>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="179.0" layoutY="134.0" prefHeight="147.0" prefWidth="242.0" text="Broken Lines, Broken Strings,&#10;Broken threads, Broken springs,&#10;Broken idols, Broken Head,&#10;People sleeping in broken beds,&#10;Ain't no use jiving&#10;Ain't no use jiving&#10;EVERYHING IS BROKEN!" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Label alignment="TOP_CENTER" layoutX="157.0" layoutY="281.0" prefHeight="99.0" prefWidth="286.0" text="Seriosly though, this error should NEVER be shown&#10;If you are a user, god speed!&#10;Exit while you still can!" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Button contentDisplay="CENTER" layoutX="253.0" layoutY="340.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="224.0" text="Ok" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button contentDisplay="CENTER" layoutX="253.0" layoutY="340.0" mnemonicParsing="false" onAction="#close" prefHeight="40.0" prefWidth="224.0" text="Ok" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
    </children>
    <columnConstraints>
       <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
@@ -32,5 +31,5 @@
       <RowConstraints />
    </rowConstraints>
 
- 
+
 </GridPane>
