@@ -30,7 +30,7 @@ public class ErrorWindowControler {
 
 
         } catch (Exception e) {
-            System.out.println("Error loading window");
+           //System.out.println("Error loading window");
 
         }
 

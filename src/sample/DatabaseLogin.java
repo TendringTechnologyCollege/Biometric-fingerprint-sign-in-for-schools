@@ -52,13 +52,13 @@ public class DatabaseLogin {
                 String Date = rs.getString("Date");
 
                 //Display values
-                System.out.print("ID: " + ID);
-                System.out.print(", UserName: " + UserName);
-                System.out.print(", Password: " + Password);
-                System.out.println(", Name: " + Name);
-                System.out.println(", Location: " + location);
-                System.out.println(", Time Out: " + TimeOut);
-                System.out.println(", Date: " + Date);
+               //System.out.print("ID: " + ID);
+               //System.out.print(", UserName: " + UserName);
+               //System.out.print(", Password: " + Password);
+               //System.out.println(", Name: " + Name);
+               //System.out.println(", Location: " + location);
+               //System.out.println(", Time Out: " + TimeOut);
+               //System.out.println(", Date: " + Date);
                 memory.setUsername(UserName);
                 memory.setPassword(Password);
 
@@ -92,6 +92,6 @@ public class DatabaseLogin {
                 se.printStackTrace();
             }//end finally try
         }//end try
-        System.out.println("Goodbye!");
+       //System.out.println("Goodbye!");
 
     }}

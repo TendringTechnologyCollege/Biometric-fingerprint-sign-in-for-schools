@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ProgressBar;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
@@ -21,6 +22,7 @@ public class Controller {
     @FXML private TextField UserName;
     //@FXML private TextField passwordField;
     @FXML private TextField passwordField;
+    @FXML private  ProgressBar progressBar;
 
 
     @FXML
@@ -63,11 +65,11 @@ public class Controller {
 
 
         if (username.equals(memory.getUsername())) {
-            System.out.println("correct username");
+           //System.out.println("correct username");
 
 
             if (password.equals(memory.getPassword())) {
-                System.out.println("correct password");
+               //System.out.println("correct password");
                 actiontarget.setText("Correct password");
 
                 CheckLocation.login();
@@ -81,44 +83,31 @@ public class Controller {
                         stage.setTitle("Location");
                         stage.setScene(new Scene(root1));
                         stage.setMaximized(true);
+                        stage.setAlwaysOnTop(true);
                         stage.show();
+                        actiontarget.setText("");
+                        UserName.setText("");
+                        passwordField.setText("");
 
 
 
                     } catch (Exception e) {
-                        System.out.println("Error loading window");
+                       //System.out.println("Error loading window");
 
                     }
                 }else{
-                    System.out.println("opened");
-                    try {
-                        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SignedBackIn.fxml"));
-                        Parent root1 = fxmlLoader.load();
-                        Stage stage = new Stage();
-                        stage.setTitle("Signed Back In");
-                        stage.setScene(new Scene(root1));
-                        stage.setMaximized(false);
-                        stage.show();
+                   //System.out.println("opened");
+                    actiontarget.setText("");
+                    UserName.setText("");
+                    passwordField.setText("");
+                    new SignInBack();
+                   //System.out.println("closed");
 
-                        //Thread.sleep(5000);
-
-                        //stage.close();
-
-
-
-                    } catch (Exception e) {
-                        System.out.println("Error loading window");
-
-                    }
-
-                    System.out.println("closed");
-                    memory.setLocaion("InSchool");
-                    UpdateDatabase.update();
 
                 }
 
             }else {
-                System.out.println("Password Incorrect");
+               //System.out.println("Password Incorrect");
                 actiontarget.setText("Password Incorrect");
 
 
@@ -126,7 +115,7 @@ public class Controller {
             }
 
         } else {
-            System.out.println("Username Incorrect");
+           //System.out.println("Username Incorrect");
             actiontarget.setText("Username Incorrect");
             new ErrorWindowControler();
 
@@ -138,6 +127,7 @@ public class Controller {
 
         }
     }
+
 
 
 }

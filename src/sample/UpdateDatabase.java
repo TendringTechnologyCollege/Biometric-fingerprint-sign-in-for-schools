@@ -60,13 +60,13 @@ public class UpdateDatabase {
                 String Date = rs.getString("Date");
 
                 //Display values
-                System.out.print("ID: " + ID);
-                System.out.print(", UserName: " + UserName);
-                System.out.print(", Password: " + Password);
-                System.out.print(", Name: " + Name);
-                System.out.print(", Location: " + location);
-                System.out.print(", Time Out: " + TimeOut);
-                System.out.print(", Date: " + Date);
+               //System.out.print("ID: " + ID);
+               //System.out.print(", UserName: " + UserName);
+               //System.out.print(", Password: " + Password);
+               //System.out.print(", Name: " + Name);
+               //System.out.print(", Location: " + location);
+               //System.out.print(", Time Out: " + TimeOut);
+               //System.out.print(", Date: " + Date);
 
 
 
@@ -99,6 +99,6 @@ public class UpdateDatabase {
                 se.printStackTrace();
             }//end finally try
         }//end try
-        System.out.println("Goodbye!");
+       //System.out.println("Goodbye!");
 
     }}

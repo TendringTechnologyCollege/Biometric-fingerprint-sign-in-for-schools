@@ -50,8 +50,8 @@ public class Location {
         memory.setDate(dateStamp);
         //CheckLocation.login();
         memory.setLocaion(Location);
-        System.out.println(memory.getDBLocation());
-        System.out.println(memory.getLocaion());
+       //System.out.println(memory.getDBLocation());
+       //System.out.println(memory.getLocaion());
         //System.out.println(2);
 
 

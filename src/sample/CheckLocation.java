@@ -47,8 +47,8 @@ public class CheckLocation {
                 String location = rs.getString("Location");
 
                 //Display values
-                System.out.print(", UserName: " + UserName);
-                System.out.println(", Location: " + location);
+               //System.out.print(", UserName: " + UserName);
+               //System.out.println(", Location: " + location);
 
                 memory.setDBLocation(location);
 
@@ -80,6 +80,6 @@ public class CheckLocation {
                 se.printStackTrace();
             }//end finally try
         }//end try
-        System.out.println("Goodbye!");
+       //System.out.println("Goodbye!");
 
     }}
