@@ -26,7 +26,7 @@ public class SignInWindow {
             stage.getIcons().add(new Image(Controller.class.getResourceAsStream("img/Icon.png")));
             stage.setTitle("Welcome | Sign in");
             stage.setScene(new Scene(root1));
-            stage.setFullScreen(true);
+            stage.setFullScreen(false);
             stage.setAlwaysOnTop(true);
             stage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
             stage.show();
