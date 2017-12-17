@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="294.0" prefWidth="374.0" styleClass="root" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Windows.Controllers.SignedBackIn">
+    <padding><Insets bottom="10" left="25" right="25" top="25" /></padding>
+
+    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="90.0" prefWidth="304.0" text="You have now been signed back in." textAlignment="CENTER" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+   <ProgressBar fx:id="progressbar" prefHeight="58.0" prefWidth="301.0" progress="0.26" GridPane.columnIndex="2" />
+
+    <stylesheets>
+        <URL value="@../Resources/Login.css" />
+    </stylesheets>
+    <columnConstraints>
+        <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+        <ColumnConstraints maxWidth="266.0" minWidth="0.0" prefWidth="0.0" />
+        <ColumnConstraints maxWidth="301.0" minWidth="35.0" prefWidth="301.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <cursor>
+        <Cursor fx:constant="DEFAULT" />
+    </cursor>
+</GridPane>

@@ -4,7 +4,9 @@
     <root id="archive" name="SignIn.jar">
       <element id="module-output" name="SignIn" />
       <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.44-bin.jar" path-in-jar="/" />
-      <element id="file-copy" path="$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.44-bin.jar" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/poi-3.17.jar" path-in-jar="/" />
+      <element id="library" level="project" name="mysql-connector-java-5.1.44-bin" />
+      <element id="library" level="project" name="poi-3.17" />
     </root>
   </artifact>
 </component>
