@@ -32,9 +32,9 @@ public class main extends Application {
         try {
 
             window = primaryStage;
-            Parent root = FXMLLoader.load(getClass().getResource("../Windows/Splash.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Windows/Splash.fxml"));
             //window.getIcons().add(new Image(MainWindow.class.getResourceAsStream("Icon.png")));
-            window.getIcons().add(new Image(main.class.getResourceAsStream("../Resources/img/Icon.png")));
+            window.getIcons().add(new Image(main.class.getResourceAsStream("Windows/Resources/img/Icon.png")));
             window.setTitle("Starting up...");
             window.setScene(new Scene(root, 600, 575, Color.TRANSPARENT));
             window.initStyle(StageStyle.TRANSPARENT);
@@ -63,7 +63,7 @@ public class main extends Application {
                 //System.out.println(1);
                 Platform.runLater(() -> {
                     //System.out.println(2);
-                    new Windows.LoginPageWindow();
+                    new Main.Windows.LoginPageWindow();
                     window.close();
                 });
             }

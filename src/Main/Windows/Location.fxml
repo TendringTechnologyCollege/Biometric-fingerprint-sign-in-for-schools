@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import java.net.URL?>
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Windows.Controllers.LocationController">
+    <columnConstraints>
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="294.0" minWidth="10.0" prefWidth="188.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="386.0" minWidth="10.0" prefWidth="146.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="294.0" minWidth="10.0" prefWidth="188.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button fx:id="Triangle" layoutX="232.0" layoutY="63.0" mnemonicParsing="false" onAction="#Triangle" prefHeight="76.0" prefWidth="136.0" text="Triangle" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" />
+        <Button fx:id="Returning" layoutX="232.0" layoutY="162.0" mnemonicParsing="false" onAction="#Returning" prefHeight="76.0" prefWidth="136.0" text="Returning" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Button fx:id="GoingHome" layoutX="232.0" layoutY="260.0" mnemonicParsing="false" onAction="#GoingHome" prefHeight="85.0" prefWidth="136.0" text="Going Home" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    </children>
+
+
+
+    <stylesheets>
+        <URL value="@Resources/Login.css" />
+    </stylesheets>
+</GridPane>

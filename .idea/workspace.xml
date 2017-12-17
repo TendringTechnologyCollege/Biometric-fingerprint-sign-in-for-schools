@@ -66,11 +66,11 @@
       <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+            <state relative-caret-position="211">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#1586#1916#0" expanded="true" />
-                <element signature="e#1915#1916#0" expanded="true" />
+                <element signature="e#1588#1923#0" expanded="true" />
+                <element signature="e#1922#1923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,16 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Splashcontroler.java" />
-        <option value="$PROJECT_DIR$/src/sample/Slash.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ErrorWindowControler.java" />
-        <option value="$PROJECT_DIR$/src/sample/SignInBack.java" />
-        <option value="$PROJECT_DIR$/src/sample/SignInWindow.java" />
-        <option value="$PROJECT_DIR$/src/exceltest.java" />
-        <option value="$PROJECT_DIR$/src/sample/exceltest.java" />
-        <option value="$PROJECT_DIR$/src/sample/ExcelStuff.java" />
-        <option value="$PROJECT_DIR$/src/sample/Location.java" />
-        <option value="$PROJECT_DIR$/src/sample/FireAlarm.java" />
         <option value="$PROJECT_DIR$/src/sample/memory.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/LoginPage.fxml" />
@@ -153,16 +143,26 @@
         <option value="$PROJECT_DIR$/src/Windows/Main.java" />
         <option value="$PROJECT_DIR$/src/Databases/SignInUsers.java" />
         <option value="$PROJECT_DIR$/src/Databases/CheckLocation.java" />
-        <option value="$PROJECT_DIR$/src/Databases/FireAlarm.java" />
         <option value="$PROJECT_DIR$/src/Databases/UpdateDatabase.java" />
         <option value="$PROJECT_DIR$/src/Windows/ErrorMessageWindow.java" />
         <option value="$PROJECT_DIR$/src/Windows/LocationWindow.java" />
         <option value="$PROJECT_DIR$/src/Windows/LoginPageWindow.java" />
         <option value="$PROJECT_DIR$/src/Windows/Controllers/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/Windows/main.java" />
-        <option value="$PROJECT_DIR$/src/Main/main.java" />
         <option value="$PROJECT_DIR$/src/Windows/SignedBackIn.fxml" />
         <option value="$PROJECT_DIR$/src/Windows/SignedBackInWindow.java" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/Splash.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/SignedBackIn.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/LoginPage.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/Location.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/ErrorMessage.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/Controllers/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/Databases/FireAlarm.java" />
+        <option value="$PROJECT_DIR$/src/Main/main.java" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/LoginPageWindow.java" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/SignedBackInWindow.java" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/LocationWindow.java" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/ErrorMessageWindow.java" />
       </list>
     </option>
   </component>
@@ -214,26 +214,30 @@
               <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
               <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Databases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
               <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="Windows" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
               <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="Windows" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="Windows" type="462c0819:PsiDirectoryNode" />
+              <item name="Databases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
@@ -464,15 +468,16 @@
       <workItem from="1513185585477" duration="3971000" />
       <workItem from="1513245846444" duration="4662000" />
       <workItem from="1513336907305" duration="3490000" />
-      <workItem from="1513517103282" duration="3453000" />
+      <workItem from="1513517103282" duration="4415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111291000" />
+    <option name="totallyTimeSpent" value="112253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -487,8 +492,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -505,7 +511,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/LoginPage.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/LoginPage.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
@@ -547,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/Controllers/MainWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -636,20 +641,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Databases/SignIn.java" />
-    <entry file="file://$PROJECT_DIR$/src/Windows/ErrorMessage.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ExcelStuff.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/SecondWindow.java" />
-    <entry file="file://$PROJECT_DIR$/src/Windows/Controllers/Splashcontroler.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/Splashcontroler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -667,31 +661,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/SignIn.js">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Resources/SignIn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/Login.css">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Resources/Login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/Splash.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <marker date="1513246070454" expanded="true" signature="1421:1433" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,12 +684,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/img/Icon.png">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Resources/img/Icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/Controllers/ErrorMessageController.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/ErrorMessageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -716,63 +697,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Databases/UpdateDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/UpdateDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="56" column="59" lean-forward="true" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
           <folding>
-            <marker date="1513338210146" expanded="true" signature="1018:1126" ph="UPDATE stude... " />
-            <marker date="1513338210146" expanded="true" signature="1185:1289" ph="UPDATE stude... " />
-            <marker date="1513338210146" expanded="true" signature="1348:1449" ph="UPDATE stude... " />
-            <marker date="1513338210146" expanded="true" signature="1511:1633" ph="SELECT ID, U... " />
+            <marker date="1513521414215" expanded="true" signature="1031:1139" ph="UPDATE stude... " />
+            <marker date="1513521414215" expanded="true" signature="1198:1302" ph="UPDATE stude... " />
+            <marker date="1513521414215" expanded="true" signature="1361:1462" ph="UPDATE stude... " />
+            <marker date="1513521414215" expanded="true" signature="1524:1646" ph="SELECT ID, U... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Databases/FireAlarm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="56" column="86" lean-forward="false" selection-start-line="56" selection-start-column="86" selection-end-line="56" selection-end-column="86" />
-          <folding>
-            <marker date="1513338210031" expanded="true" signature="1131:1198" ph="SELECT ID, U... " />
-            <marker date="1513338210031" expanded="true" signature="1131:1221" ph="SELECT `Name... students" />
-            <marker date="1513338210031" expanded="true" signature="1131:1222" ph="SELECT `Name... students" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Databases/CheckLocation.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/CheckLocation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
           <folding>
-            <marker date="1513338210088" expanded="true" signature="1034:1119" ph="SELECT UserN... students" />
+            <marker date="1513521414091" expanded="true" signature="1047:1132" ph="SELECT UserN... students" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Databases/SignInUsers.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/SignInUsers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding>
-            <marker date="1513338177699" expanded="true" signature="1032:1154" ph="SELECT ID, U... " />
+            <marker date="1513521414584" expanded="true" signature="1045:1167" ph="SELECT ID, U... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/Location.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/Controllers/LocationController.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/LocationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -780,34 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/LoginPage.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/ErrorMessageWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/LoginPageWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/Controllers/SignedBackIn.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/SignedBackIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -815,50 +746,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/SignedBackIn.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/ErrorMessage.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/SignedBackInWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Location.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/Controllers/MainWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/LoginPage.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="271">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/FireAlarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="65" column="56" lean-forward="false" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1513521413878" expanded="true" signature="1144:1211" ph="SELECT ID, U... " />
+            <marker date="1513521413878" expanded="true" signature="1144:1234" ph="SELECT `Name... students" />
+            <marker date="1513521413878" expanded="true" signature="1144:1235" ph="SELECT `Name... students" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Windows/LocationWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/LoginPageWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="86" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/SignedBackInWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="89" lean-forward="false" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/ErrorMessageWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/LocationWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/SignedBackIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Splash.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <marker date="1513521414134" expanded="true" signature="1418:1430" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+        <state relative-caret-position="211">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#1586#1916#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#1588#1923#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
           </folding>
         </state>
       </provider>
