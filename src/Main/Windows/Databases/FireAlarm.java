@@ -1,6 +1,7 @@
 package Main.Windows.Databases;
 
 
+import Main.memory;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 
@@ -39,7 +40,7 @@ public class FireAlarm {
             //System.out.println("Creating statement...");
             stmt = conn.createStatement();
             String sql;
-            sql = "SELECT `Name`, `Location`, `TimeOut`, `Date` FROM `students` WHERE `Location` != 'InSchool'";
+            sql = "SELECT `Name`, `Location`, `TimeOut`, `Date` FROM `students` WHERE `Location` != 'InSchool' AND `Date` = '" + memory.Date + "' ";
             ResultSet rs = stmt.executeQuery(sql);
 
 
