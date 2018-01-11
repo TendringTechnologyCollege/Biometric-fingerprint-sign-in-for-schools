@@ -6,6 +6,8 @@ import javafx.scene.Node;
 import javafx.stage.Stage;
 import Main.memory;
 
+import java.awt.*;
+import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -13,7 +15,7 @@ public class LocationController {
 
     public static String Location = "";
 
-    public void Triangle(ActionEvent actionEvent) {
+    public void Triangle(ActionEvent actionEvent) throws MalformedURLException, AWTException {
         //System.out.println(1);
         Location = "Triangle";
         Check();
@@ -24,7 +26,7 @@ public class LocationController {
 
     }
 
-    public void Returning(ActionEvent actionEvent) {
+    public void Returning(ActionEvent actionEvent) throws MalformedURLException, AWTException {
         Location = "Returning";
         Check();
         Node source = (Node)  actionEvent.getSource();
@@ -32,7 +34,7 @@ public class LocationController {
         stage.close();
     }
 
-    public void GoingHome(ActionEvent actionEvent) {
+    public void GoingHome(ActionEvent actionEvent) throws MalformedURLException, AWTException {
         Location = "GoingHome";
         Check();
         Node source = (Node)  actionEvent.getSource();
@@ -42,7 +44,7 @@ public class LocationController {
 
 
 
-    public static void Check(){
+    public static void Check() throws MalformedURLException, AWTException {
         String timeStamp = new SimpleDateFormat("HH:mm").format(new Date());
         memory.setTime(timeStamp);
         String dateStamp = new SimpleDateFormat("dd/MM/yyyy").format(new Date());

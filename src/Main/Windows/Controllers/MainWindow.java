@@ -1,5 +1,6 @@
 package Main.Windows.Controllers;
 
+import Main.Misc.Notifications;
 import Main.Windows.Databases.CheckLocation;
 import Main.Windows.Databases.FireAlarm;
 import Main.Windows.Databases.SignInUsers;
@@ -14,6 +15,9 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.text.Text;
 import Main.memory;
 
+import java.awt.*;
+import java.net.MalformedURLException;
+
 
 public class MainWindow {
 
@@ -27,7 +31,7 @@ public class MainWindow {
 
 
     @FXML
-    public void onEnter(KeyEvent e){
+    public void onEnter(KeyEvent e) throws MalformedURLException, AWTException {
 
         if(e.getCode().equals(KeyCode.ENTER)){
             Signin();
@@ -35,7 +39,7 @@ public class MainWindow {
 
     }
 
-    @FXML protected void handleSubmitButtonAction(ActionEvent event) {
+    @FXML protected void handleSubmitButtonAction(ActionEvent event) throws MalformedURLException, AWTException {
 
         Signin();
 
@@ -47,7 +51,7 @@ public class MainWindow {
 
 
 
-    private void Signin() {
+    private void Signin() throws MalformedURLException, AWTException {
 
 
 
@@ -82,7 +86,7 @@ public class MainWindow {
                         actiontarget.setText("");
                         UserName.setText("");
                         passwordField.setText("");
-                        System.out.println("laoded");
+                        //System.out.println("loaded");
 
 
 
@@ -115,12 +119,14 @@ public class MainWindow {
         } else {
             //System.out.println("Username Incorrect");
             actiontarget.setText("Username Incorrect");
-            new ErrorMessageWindow();
+            //new ErrorMessageController();
+
+            String e = "UserName Incorrect";
+
+            Notifications.Error(String.valueOf(e));
 
 
         }
     }
-
-
 
 }

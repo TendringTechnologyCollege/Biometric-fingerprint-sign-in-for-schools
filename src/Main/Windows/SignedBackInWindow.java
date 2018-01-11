@@ -1,7 +1,9 @@
 package Main.Windows;
 
+import Main.Quit;
 import Main.Windows.Databases.UpdateDatabase;
 import javafx.application.Platform;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,7 +12,10 @@ import javafx.scene.control.ProgressBar;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import Main.memory;
+import javafx.stage.WindowEvent;
 
+import java.awt.*;
+import java.net.MalformedURLException;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -34,6 +39,24 @@ public class SignedBackInWindow {
             stage.setMaximized(true);
             stage.setAlwaysOnTop(true);
             stage.show();
+
+            Platform.setImplicitExit(false);
+            stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+                @Override
+                public void handle(WindowEvent event) {
+                    event.consume();
+                    try {
+                        Quit.Quit();
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+
+                    } catch (AWTException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+
+
             memory.setLocaion("InSchool");
             UpdateDatabase.update();
             //System.out.println(progressbar.getProgress());

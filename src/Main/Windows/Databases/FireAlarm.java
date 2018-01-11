@@ -1,11 +1,14 @@
 package Main.Windows.Databases;
 
 
+import Main.Misc.Notifications;
 import Main.memory;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 
+import java.awt.*;
 import java.io.FileOutputStream;
+import java.net.MalformedURLException;
 import java.sql.*;
 
 
@@ -23,7 +26,7 @@ public class FireAlarm {
 
 
 
-    public static void Fire() {
+    public static void Fire() throws MalformedURLException, AWTException {
         Connection conn = null;
         Statement stmt = null;
         try{
@@ -92,21 +95,25 @@ public class FireAlarm {
         }catch(SQLException se){
             //Handle errors for JDBC
             se.printStackTrace();
+            Notifications.Error(String.valueOf(se));
         }catch(Exception e){
             //Handle errors for Class.forName
             e.printStackTrace();
+            Notifications.Error(String.valueOf(e));
         }finally{
             //finally block used to close resources
             try{
                 if(stmt!=null)
                     stmt.close();
             }catch(SQLException se2){
+                Notifications.Error(String.valueOf(se2));
             }// nothing we can do
             try{
                 if(conn!=null)
                     conn.close();
             }catch(SQLException se){
-                se.printStackTrace();
+                //se.printStackTrace();
+                Notifications.Error(String.valueOf(se));
             }//end finally try
         }//end try
         //System.out.println("Goodbye!");

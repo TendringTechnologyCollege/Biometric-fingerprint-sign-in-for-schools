@@ -1,8 +1,11 @@
 package Main.Windows.Databases;
 
 
+import Main.Misc.Notifications;
 import Main.memory;
 
+import java.awt.*;
+import java.net.MalformedURLException;
 import java.sql.*;
 
 
@@ -20,7 +23,7 @@ public class SignInUsers {
 
 
 
-    public static void login() {
+    public static void login() throws MalformedURLException, AWTException {
         Connection conn = null;
         Statement stmt = null;
         try{
@@ -77,21 +80,25 @@ public class SignInUsers {
         }catch(SQLException se){
             //Handle errors for JDBC
             se.printStackTrace();
+            Notifications.Error(String.valueOf(se));
         }catch(Exception e){
             //Handle errors for Class.forName
             e.printStackTrace();
+            Notifications.Error(String.valueOf(e));
         }finally{
             //finally block used to close resources
             try{
                 if(stmt!=null)
                     stmt.close();
             }catch(SQLException se2){
+                Notifications.Error(String.valueOf(se2));
             }// nothing we can do
             try{
                 if(conn!=null)
                     conn.close();
             }catch(SQLException se){
                 se.printStackTrace();
+                Notifications.Error(String.valueOf(se));
             }//end finally try
         }//end try
        //System.out.println("Goodbye!");
