@@ -28,7 +28,7 @@ public class SignedBackInWindow {
 
     }
 
-    public void SignIn(){
+    private void SignIn(){
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SignedBackIn.fxml"));
             Parent root1 = fxmlLoader.load();
@@ -76,7 +76,7 @@ public class SignedBackInWindow {
         }
     }
 
-    public static void close(Stage stage){
+    private static void close(Stage stage){
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override

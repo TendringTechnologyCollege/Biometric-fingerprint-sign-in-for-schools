@@ -9,10 +9,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyCodeCombination;
-import javafx.scene.input.KeyCombination;
-import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
@@ -28,7 +24,7 @@ public class LoginPageWindow {
     }
 
 
-    public void signin() throws MalformedURLException, AWTException {
+    private void signin() throws MalformedURLException, AWTException {
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("LoginPage.fxml"));

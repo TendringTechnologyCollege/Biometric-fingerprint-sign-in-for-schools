@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="SignIn:jar" />
@@ -63,54 +66,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Notifications.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Misc/Notifications.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="132" column="5" lean-forward="false" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/LocationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateDatabase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/UpdateDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="113" column="7" lean-forward="false" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
-              <folding>
-                <marker date="1515497005838" expanded="true" signature="1828:1888" ph="UPDATE students... " />
-                <marker date="1515497005838" expanded="true" signature="1828:1905" ph="UPDATE students... " />
-                <marker date="1515497005838" expanded="true" signature="1828:1906" ph="UPDATE students... " />
-                <marker date="1515497005838" expanded="true" signature="1828:1934" ph="UPDATE students... " />
-                <marker date="1515497005838" expanded="true" signature="1828:1935" ph="UPDATE stude... " />
-                <marker date="1515497005838" expanded="true" signature="1828:1936" ph="UPDATE students... " />
-                <marker date="1515497005838" expanded="true" signature="1995:2099" ph="UPDATE students... " />
-                <marker date="1515497005838" expanded="true" signature="2158:2259" ph="UPDATE students... " />
-                <marker date="1515497005838" expanded="true" signature="2320:2444" ph="SELECT ID, U... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -181,13 +142,11 @@
         <option value="$PROJECT_DIR$/src/Windows/main.java" />
         <option value="$PROJECT_DIR$/src/Windows/SignedBackIn.fxml" />
         <option value="$PROJECT_DIR$/src/Windows/SignedBackInWindow.java" />
-        <option value="$PROJECT_DIR$/src/Main/Windows/Splash.fxml" />
         <option value="$PROJECT_DIR$/src/Databases/FireAlarm.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/Location.fxml" />
         <option value="$PROJECT_DIR$/src/Main/Windows/ErrorMessage.fxml" />
         <option value="$PROJECT_DIR$/src/Main/Windows/LoginPage.fxml" />
         <option value="$PROJECT_DIR$/src/Main/Misc/SystemTray.java" />
-        <option value="$PROJECT_DIR$/src/Main/Windows/SignedBackIn.fxml" />
         <option value="$PROJECT_DIR$/src/Main/Misc/TrayIconDemo.java" />
         <option value="$PROJECT_DIR$/src/Main/Misc/Error.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/Controllers/MainWindow.java" />
@@ -195,15 +154,17 @@
         <option value="$PROJECT_DIR$/src/Main/Windows/Databases/FireAlarm.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/Databases/InSchoolQuit.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/Databases/SignInUsers.java" />
-        <option value="$PROJECT_DIR$/src/Main/Quit.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/SignedBackInWindow.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/LocationWindow.java" />
-        <option value="$PROJECT_DIR$/src/Main/Windows/Controllers/LocationController.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/LoginPageWindow.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/ErrorMessageWindow.java" />
         <option value="$PROJECT_DIR$/src/Main/Misc/Notifications.java" />
         <option value="$PROJECT_DIR$/src/Main/main.java" />
         <option value="$PROJECT_DIR$/src/Main/Windows/Databases/UpdateDatabase.java" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/Controllers/LocationController.java" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/Splash.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Windows/SignedBackIn.fxml" />
+        <option value="$PROJECT_DIR$/src/Main/Quit.java" />
       </list>
     </option>
   </component>
@@ -215,7 +176,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1467" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -239,9 +200,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,51 +220,18 @@
               <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
               <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
               <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows" type="462c0819:PsiDirectoryNode" />
-              <item name="Databases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biometric-fingerprint-sign-in-for-schools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,7 +248,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/poi-ooxml-schemas-3.17.jar!/" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -328,6 +257,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="biometric-fingerprint-sign-in-for-schools" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/lib" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -356,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="JAR Application.poi-ooxml-3.17.jar">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="HTML_USED" value="false" />
@@ -437,6 +367,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="poi-ooxml-3.17.jar" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/poi-ooxml-3.17.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs />
+    </configuration>
+    <configuration name="poi-ooxml-schemas-3.17.jar" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/poi-ooxml-schemas-3.17.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -489,9 +431,11 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.main" />
       <item index="1" class="java.lang.String" itemvalue="Application.TrayIconDemo" />
+      <item index="2" class="java.lang.String" itemvalue="JAR Application.poi-ooxml-schemas-3.17.jar" />
+      <item index="3" class="java.lang.String" itemvalue="JAR Application.poi-ooxml-3.17.jar" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -564,14 +508,18 @@
       <workItem from="1515241456272" duration="3769000" />
       <workItem from="1515403038040" duration="2562000" />
       <workItem from="1515493616388" duration="8076000" />
+      <workItem from="1515665576585" duration="2472000" />
+      <workItem from="1515673787118" duration="1085000" />
+      <workItem from="1515756283358" duration="1022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149945000" />
+    <option name="totallyTimeSpent" value="154524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -582,11 +530,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3074485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="171" y="81" width="646" height="506" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3074485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="111" y="179" width="646" height="506" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20644216" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20588236" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -600,6 +548,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" x="1366" y="23" width="1366" height="705" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -745,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/memory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Windows/Resources/img/error.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -762,7 +704,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -773,18 +714,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Splash.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -795,18 +724,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Windows/SignedBackIn.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -817,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="121" column="25" lean-forward="true" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,23 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1213">
           <caret line="81" column="54" lean-forward="false" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
-          <folding>
-            <marker date="1515497005887" expanded="true" signature="1180:1265" ph="SELECT UserN... students" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/FireAlarm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="120" column="6" lean-forward="true" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
-          <folding>
-            <marker date="1515497005951" expanded="true" signature="1297:1364" ph="SELECT ID, U... " />
-            <marker date="1515497005951" expanded="true" signature="1297:1387" ph="SELECT `Name... students" />
-            <marker date="1515497005951" expanded="true" signature="1297:1388" ph="SELECT `Name... students" />
-            <marker date="1515497005951" expanded="true" signature="1297:1403" ph="SELECT `Name... students" />
-            <marker date="1515497005951" expanded="true" signature="1297:1423" ph="SELECT `Name... students" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,12 +770,12 @@
         <state relative-caret-position="399">
           <caret line="104" column="33" lean-forward="true" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
           <folding>
-            <marker date="1515497006045" expanded="true" signature="1038:1097" ph="UPDATE students... " />
-            <marker date="1515497006045" expanded="true" signature="1038:1098" ph="UPDATE students... " />
-            <marker date="1515497006045" expanded="true" signature="1157:1212" ph="UPDATE students... " />
-            <marker date="1515497006045" expanded="true" signature="1157:1213" ph="UPDATE students... " />
-            <marker date="1515497006045" expanded="true" signature="1272:1325" ph="UPDATE students... " />
-            <marker date="1515497006045" expanded="true" signature="1385:1509" ph="SELECT ID, U... " />
+            <marker date="1515674475117" expanded="true" signature="1062:1121" ph="UPDATE students... " />
+            <marker date="1515674475117" expanded="true" signature="1062:1122" ph="UPDATE students... " />
+            <marker date="1515674475117" expanded="true" signature="1181:1236" ph="UPDATE students... " />
+            <marker date="1515674475117" expanded="true" signature="1181:1237" ph="UPDATE students... " />
+            <marker date="1515674475117" expanded="true" signature="1296:1349" ph="UPDATE students... " />
+            <marker date="1515674475117" expanded="true" signature="1409:1533" ph="SELECT ID, U... " />
           </folding>
         </state>
       </provider>
@@ -889,7 +785,7 @@
         <state relative-caret-position="464">
           <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
           <folding>
-            <marker date="1515497005998" expanded="true" signature="1178:1300" ph="SELECT ID, U... " />
+            <marker date="1515674475023" expanded="true" signature="1202:1324" ph="SELECT ID, U... " />
           </folding>
         </state>
       </provider>
@@ -898,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding>
-            <element signature="e#382#413#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-          <folding>
-            <element signature="e#382#413#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,57 +819,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Quit.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/UpdateDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="245">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#510#549#0" expanded="false" />
+            <element signature="e#919#950#0" expanded="false" />
+            <marker date="1515674474920" expanded="true" signature="1798:1858" ph="UPDATE students... " />
+            <marker date="1515674474920" expanded="true" signature="1798:1875" ph="UPDATE students... " />
+            <marker date="1515674474920" expanded="true" signature="1798:1876" ph="UPDATE students... " />
+            <marker date="1515674474920" expanded="true" signature="1798:1904" ph="UPDATE students... " />
+            <marker date="1515674474920" expanded="true" signature="1798:1905" ph="UPDATE stude... " />
+            <marker date="1515674474920" expanded="true" signature="1798:1906" ph="UPDATE students... " />
+            <marker date="1515674474920" expanded="true" signature="1965:2069" ph="UPDATE students... " />
+            <marker date="1515674474920" expanded="true" signature="2128:2229" ph="UPDATE students... " />
+            <marker date="1515674474920" expanded="true" signature="2290:2414" ph="SELECT ID, U... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Misc/Notifications.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="132" column="5" lean-forward="false" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Windows/Controllers/LocationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="194">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Misc/Notifications.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Splash.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="98" lean-forward="false" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/FireAlarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <marker date="1515674474674" expanded="true" signature="1321:1388" ph="SELECT ID, U... " />
+            <marker date="1515674474674" expanded="true" signature="1321:1411" ph="SELECT `Name... students" />
+            <marker date="1515674474674" expanded="true" signature="1321:1412" ph="SELECT `Name... students" />
+            <marker date="1515674474674" expanded="true" signature="1321:1427" ph="SELECT `Name... students" />
+            <marker date="1515674474674" expanded="true" signature="1321:1447" ph="SELECT `Name... students" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Windows/SignedBackIn.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Quit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#143#189#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/memory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Windows/Databases/UpdateDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/Main/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="113" column="7" lean-forward="false" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
-          <folding>
-            <marker date="1515497005838" expanded="true" signature="1828:1888" ph="UPDATE students... " />
-            <marker date="1515497005838" expanded="true" signature="1828:1905" ph="UPDATE students... " />
-            <marker date="1515497005838" expanded="true" signature="1828:1906" ph="UPDATE students... " />
-            <marker date="1515497005838" expanded="true" signature="1828:1934" ph="UPDATE students... " />
-            <marker date="1515497005838" expanded="true" signature="1828:1935" ph="UPDATE stude... " />
-            <marker date="1515497005838" expanded="true" signature="1828:1936" ph="UPDATE students... " />
-            <marker date="1515497005838" expanded="true" signature="1995:2099" ph="UPDATE students... " />
-            <marker date="1515497005838" expanded="true" signature="2158:2259" ph="UPDATE students... " />
-            <marker date="1515497005838" expanded="true" signature="2320:2444" ph="SELECT ID, U... " />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +973,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1052,7 +980,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>poi-ooxml-schemas-3.17</last-edited>
+          <last-edited>mysql-connector-java-5.1.44-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -12,12 +12,12 @@ import java.sql.*;
 public class SignInUsers {
     // JDBC driver name and database URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/signin";
+    private static final String DB_URL = "jdbc:mysql://localhost/signin";
 
 
     // SignInUsers credentials
-    static final String USER = "SignIn";
-    static final String PASS = "Root";
+    private static final String USER = "SignIn";
+    private static final String PASS = "Root";
 
     //SQL login details
 
@@ -66,8 +66,6 @@ public class SignInUsers {
                //System.out.println(", Date: " + Date);
                 memory.setUsername(UserName);
                 memory.setPassword(Password);
-
-                String userName = UserName;
 
 
             }

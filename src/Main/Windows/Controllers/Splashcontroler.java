@@ -3,7 +3,7 @@ package Main.Windows.Controllers;
 
 
 
-public class Splashcontroler {
+class Splashcontroler {
 
 
 

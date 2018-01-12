@@ -1,14 +1,14 @@
 package Main;
 
 public class memory {
-    public static String username;
-    public static String password;
-    public static String TFusername;
-    public static String TFpassword;
-    public static String locaion;
-    public static String Time;
+    private static String username;
+    private static String password;
+    private static String TFusername;
+    private static String TFpassword;
+    private static String locaion;
+    private static String Time;
     public static String Date;
-    public static String DBLocation;
+    private static String DBLocation;
 
     public static String getUsername() {
         return username;

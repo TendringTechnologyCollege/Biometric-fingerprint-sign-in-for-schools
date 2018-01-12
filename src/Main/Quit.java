@@ -6,6 +6,7 @@ import java.awt.*;
 import java.net.MalformedURLException;
 
 public class Quit {
+    @SuppressWarnings("MethodNameSameAsClassName")
     public static void Quit() throws MalformedURLException, AWTException {
         System.out.println("quitting");
         memory.setLocaion("InSchool");

@@ -1,16 +1,11 @@
 package Main;
 
-import Main.Misc.Notifications;
-import Main.Windows.Databases.InSchoolQuit;
-import Main.Windows.Databases.UpdateDatabase;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyCodeCombination;
 import javafx.scene.input.KeyCombination;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
@@ -27,17 +22,15 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.sun.org.apache.bcel.internal.util.SecuritySupport.getResourceAsStream;
-
 public class main extends Application {
 
 
 
 
-    Stage window;
+    private Stage window;
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
 
 
         try {
@@ -60,7 +53,7 @@ public class main extends Application {
             File logsexcel = new File("Logs.xls");
             boolean logexist = logsexcel.exists();
 
-            if (logexist == false){
+            if (!logexist){
 
                 Workbook wb = new HSSFWorkbook();
                 CreationHelper createHelper = wb.getCreationHelper();
@@ -89,7 +82,7 @@ public class main extends Application {
 
 
 
-    public void Wait(){
+    private void Wait(){
 
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
@@ -125,7 +118,7 @@ public class main extends Application {
         return dateStamp;
     }
 
-    public static void timedate(){
+    private static void timedate(){
         String timeStamp = new SimpleDateFormat("HH:mm").format(new Date());
         memory.setTime(timeStamp);
         String dateStamp = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
@@ -137,7 +130,7 @@ public class main extends Application {
 
 
 
-    public static void main(String[] args) throws MalformedURLException, AWTException {
+    public static void main(String[] args) {
         //Notifications.Loading();
 
         launch(args);

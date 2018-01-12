@@ -3,9 +3,7 @@ package Main.Windows.Databases;
 import Main.Misc.Notifications;
 import Main.main;
 import Main.memory;
-import com.sun.deploy.util.SyncFileAccess;
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.*;
 
@@ -20,15 +18,16 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
+@SuppressWarnings("ConstantConditions")
 public class UpdateDatabase {
     // JDBC driver name and database URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/signin";
+    private static final String DB_URL = "jdbc:mysql://localhost/signin";
 
 
     // SignInUsers credentials
-    static final String USER = "SignIn";
-    static final String PASS = "Root";
+    private static final String USER = "SignIn";
+    private static final String PASS = "Root";
 
     //SQL login details
 

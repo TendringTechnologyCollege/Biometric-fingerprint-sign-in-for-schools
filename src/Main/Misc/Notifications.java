@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 
 public class Notifications {
 
-    public static void Error(String e) throws MalformedURLException, AWTException {
+    public static void Error(String e) throws AWTException {
 
         if (SystemTray.isSupported()) {
             Notifications td = new Notifications();
@@ -16,7 +16,7 @@ public class Notifications {
         }
     }
 
-    public void error(String e) throws AWTException, java.net.MalformedURLException {
+    private void error(String e) throws AWTException {
         //Obtain only one instance of the SystemTray object
         SystemTray tray = SystemTray.getSystemTray();
 
@@ -34,7 +34,7 @@ public class Notifications {
         trayIcon.displayMessage("Error: ", e, MessageType.ERROR);
     }
 
-    public static void Loading() throws MalformedURLException, AWTException {
+    public static void Loading() throws AWTException {
 
         if (SystemTray.isSupported()) {
             Notifications td = new Notifications();
@@ -44,7 +44,7 @@ public class Notifications {
         }
     }
 
-    public void loading() throws AWTException, java.net.MalformedURLException {
+    private void loading() throws AWTException {
         //Obtain only one instance of the SystemTray object
         SystemTray tray = SystemTray.getSystemTray();
 

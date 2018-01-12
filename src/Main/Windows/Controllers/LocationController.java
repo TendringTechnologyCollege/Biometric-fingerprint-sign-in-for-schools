@@ -13,7 +13,7 @@ import java.util.Date;
 
 public class LocationController {
 
-    public static String Location = "";
+    private static String Location = "";
 
     public void Triangle(ActionEvent actionEvent) throws MalformedURLException, AWTException {
         //System.out.println(1);
@@ -44,7 +44,7 @@ public class LocationController {
 
 
 
-    public static void Check() throws MalformedURLException, AWTException {
+    private static void Check() throws MalformedURLException, AWTException {
         String timeStamp = new SimpleDateFormat("HH:mm").format(new Date());
         memory.setTime(timeStamp);
         String dateStamp = new SimpleDateFormat("dd/MM/yyyy").format(new Date());

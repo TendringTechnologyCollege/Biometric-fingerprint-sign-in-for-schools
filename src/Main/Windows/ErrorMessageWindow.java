@@ -15,14 +15,14 @@ import java.awt.*;
 import java.net.MalformedURLException;
 
 @SuppressWarnings("Duplicates")
-public class ErrorMessageWindow {
-    public ErrorMessageWindow() throws MalformedURLException, AWTException {
+class ErrorMessageWindow {
+    private ErrorMessageWindow() throws MalformedURLException, AWTException {
         error();
     }
 
 
 
-    public void error() throws MalformedURLException, AWTException {
+    private void error() throws MalformedURLException, AWTException {
 
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ErrorMessage.fxml"));

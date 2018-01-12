@@ -23,7 +23,7 @@ public class LocationWindow {
 
     }
 
-    public void start() throws MalformedURLException, AWTException {
+    private void start() throws MalformedURLException, AWTException {
         try{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Location.fxml"));
         Parent root1 = fxmlLoader.load();
