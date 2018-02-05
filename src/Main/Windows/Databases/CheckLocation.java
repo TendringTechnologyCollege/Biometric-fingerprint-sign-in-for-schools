@@ -23,6 +23,7 @@ public class CheckLocation {
 
 
 
+    @SuppressWarnings("Duplicates")
     public static void login() throws MalformedURLException, AWTException {
         Connection conn = null;
         Statement stmt = null;
