@@ -22,7 +22,7 @@ import java.util.Date;
 public class UpdateDatabase {
     // JDBC driver name and database URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://localhost/signin";
+    private static final String DB_URL = "jdbc:mysql://192.168.137.98:3306/signin";
 
 
     // SignInUsers credentials
