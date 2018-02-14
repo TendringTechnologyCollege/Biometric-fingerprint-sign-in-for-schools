@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="SignIn">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/SignIn/poi-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/SignIn/poi-ooxml-schemas-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/SignIn/mysql-connector-java-5.1.44-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/SignIn/poi-ooxml-3.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
