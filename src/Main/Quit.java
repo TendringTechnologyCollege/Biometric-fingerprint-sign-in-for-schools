@@ -11,7 +11,7 @@ public class Quit {
         System.out.println("quitting");
         memory.setLocaion("InSchool");
         InSchoolQuit.quitdatabase();
-        //System.exit(0); // DON'T REMOVE, OR PROGRAM CAN BREAK
+        System.exit(0); // DON'T REMOVE, OR PROGRAM CAN BREAK
 
     }
 

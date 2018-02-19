@@ -10,8 +10,8 @@ import java.sql.*;
 public class InSchoolQuit {
 
     // JDBC driver name and database URL
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://192.168.137.98/signin";
+    static final String JDBC_DRIVER = "org.mariadb.jdbc.Driver";
+    private static final String DB_URL = "jdbc:mariadb://192.168.137.98/signin";
 
 
     // SignInUsers credentials
@@ -29,7 +29,7 @@ public class InSchoolQuit {
 
         try {
             //STEP 2: Register JDBC driver
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("org.mariadb.jdbc.Driver");
 
             //STEP 3: Open a connection
             //System.out.println("Connecting to database...");

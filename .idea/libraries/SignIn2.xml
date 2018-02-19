@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="SignIn2">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/SignIn_jar/SignIn.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
